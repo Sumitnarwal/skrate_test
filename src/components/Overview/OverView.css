@@ -1,0 +1,27 @@
+.overViewdiv {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  gap: 1rem;
+  border: 1px solid black;
+}
+
+.overviwtopdiv {
+  border: 1px solid rgb(224, 212, 212);
+  width: 60%;
+}
+.upcomingSession {
+  border: 1px solid black;
+  width: 100%;
+}
+.upcomingSession div{
+    
+}
+.overViewdiv div {
+  gap: 1rem;
+  display: flex;
+  height: 60px;
+ padding: 5px;
+  width: 60%;
+  text-align: center;
+  background: #F6F7FF;
+}

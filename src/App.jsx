@@ -4,6 +4,8 @@ import './App.css'
 import { Navbar } from './components/navbar/Navbar'
 import OverView from './components/Overview/OverView'
 import axios from 'axios'
+import NewJobs from './components/newJobs/NewJobs'
+import Sidebar from './components/sideBar/Sidebar'
 
 function App() {
   const [detail, setDeltails] = useState([])
@@ -21,8 +23,13 @@ function App() {
     })
   }
   return (
-    <div className="App">
-      <OverView detail={detail} />
+    <div className='' >
+      <Navbar detail={detail}/>
+      <div className="App">
+        <Sidebar />
+        <OverView detail={detail} />
+        <NewJobs detail={detail} />
+      </div>
     </div>
   )
 }

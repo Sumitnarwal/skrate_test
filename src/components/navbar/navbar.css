@@ -1,12 +1,35 @@
-
-
 .navbar {
-    display: flex;
-    width: 70%;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 100px;
+}
+
+.imageLogo {
+  margin-left: 20px;
+}
+.LoginData{
+    font-size: 24px;
+}
+.LoginData img{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
     border: 1px solid black;
-  }
-  
-  .right{
-    display: flex;
-  }
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.right div {
+  margin-right: 30px;
+}
+.navright button {
+  width: 138px;
+  height: 62px;
+  color: #ffffff;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+}

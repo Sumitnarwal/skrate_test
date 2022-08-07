@@ -1,2 +1,9 @@
 
 
+.App{
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+  font-size: 24px;
+}
+

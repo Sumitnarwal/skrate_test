@@ -2,18 +2,19 @@
 
 import React from 'react'
 import logo from "../images/logo.png"
+import { BiImages } from 'react-icons/bi';
 import "./navbar.css"
-export const Navbar = () => {
+export const Navbar = ({detail}) => {
   return (
     <div className='navbar'>
       <div className='imageLogo'>
         <img src={logo} />
       </div>
       <div className='right'>
-        <div><button>Sign Out</button></div>
+        <div className='navright'><button>Sign Out</button></div>
         <div className='LoginData'>
-          <img />
-          <span>Name</span>
+          <BiImages/>
+          <span >{detail.full_name}</span>
         </div>
       </div>
     </div>

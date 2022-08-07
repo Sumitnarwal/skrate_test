@@ -1,0 +1,15 @@
+.sidebar {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: 700px;
+   float: left;
+}
+.homelogo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+

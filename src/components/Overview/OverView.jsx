@@ -1,14 +1,14 @@
 
 import axios from "axios"
-
+import "./OverView.css"
 import React, { useState } from 'react'
 
 function OverView({ detail }) {
 
     return (
-        <div>
+        <div className="overviwtopdiv">
             <p>OverView</p>
-            <div>
+            <div className="overViewdiv">
                 <div>
                     <span>Profile Views</span>
                     <span>{detail?.dashboard_stats?.profile_views}</span>
@@ -26,8 +26,8 @@ function OverView({ detail }) {
                     <span>{detail?.dashboard_stats?.skills_verified}</span>
                 </div>
             </div>
-            <p>Upcoming Sessions</p>
-            <div>
+            <div className="upcomingSession">
+                <p>Upcoming Sessions</p>
                 {detail?.upcoming_sessions?.map((el) => (
                     <div>
                         <span>{el.mentor_name}</span>

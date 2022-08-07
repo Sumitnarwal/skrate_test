@@ -1,0 +1,23 @@
+.jobdiv{
+    border: 1px solid black;
+    width: 30%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.jobdiv>div>div{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.jobdiv>div{
+    background: #FFFFFF;
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    border: 1px solid #ede2e2;
+}
